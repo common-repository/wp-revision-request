@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RevisionRequest v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-28 08:58:18+0000\n"
+"Last-Translator: admin <joern@flyingletters.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/class-revisioncontroller.php:25
+#: inc/class-revisionrequestcore.php:54
+#: inc/class-revisionrequestcore.php:71
+#@ default
+msgid "Revisions"
+msgstr ""
+
+#: inc/class-revisioncontroller.php:38
+#@ revisionrequest
+msgid "You do not have permission to delete revisions."
+msgstr "Du hast nicht die erforderlichen Rechte, um eine Revision zu löschen."
+
+#: inc/class-revisioncontroller.php:52
+#@ revisionrequest
+msgid "Revision deleted."
+msgstr "Revision gelöscht."
+
+#: inc/class-revisioncontroller.php:78
+#, php-format
+#@ default
+msgctxt "post revision"
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: inc/class-revisioncontroller.php:103
+#@ default
+msgid "Restore"
+msgstr ""
+
+#: inc/class-revisioncontroller.php:106
+#@ default
+msgid "Delete"
+msgstr ""
+
+#: inc/class-revisioncontroller.php:128
+#@ default
+msgid "ID"
+msgstr ""
+
+#. translators: column name in revisions
+#: inc/class-revisioncontroller.php:130
+#@ default
+msgctxt "revisions column name"
+msgid "Date Created"
+msgstr ""
+
+#: inc/class-revisioncontroller.php:131
+#@ default
+msgid "Author"
+msgstr ""
+
+#: inc/class-revisioncontroller.php:132
+#@ default
+msgid "Actions"
+msgstr ""
+
+#: inc/class-revisiondisplay.php:98
+#@ default
+msgctxt "revision date format"
+msgid "j F, Y @ G:i"
+msgstr ""
+
+#: inc/class-revisiondisplay.php:135
+#@ default
+msgid "View"
+msgstr ""
+
+#: inc/class-revisionondemand.php:32
+#: inc/class-revisionrequestcore.php:35
+#@ revisionrequest
+msgid "Create new Revision"
+msgstr "Eine neue Revision erstellen."
+
+#: inc/class-revisiondisplay.php:121
+#, php-format
+#@ revisionrequest
+msgctxt "Revision name, Revision date"
+msgid "%1$s as of %2$s"
+msgstr "%1$s vom %2$s"
+
+#: inc/class-revisiondisplay.php:37
+#@ revisionrequest
+msgid "Show revision List below post content."
+msgstr "Revisionen unter dem Beitrag anzeigen"
+
+#: inc/class-revisiondisplay.php:104
+#, php-format
+#@ revisionrequest
+msgid "You are viewing an old revision of this page. Click <a href='%s'>here</a> to go to the most recent version."
+msgstr "Sie sehen eine ältere Version dieses Beitrags. <a href='%s'>Here</a> geht es zur letzten Version."
+
+#: inc/class-revisionondemand.php:35
+#@ revisionrequest
+msgid "Saves this post and creates a new revision."
+msgstr "Speichert diesen Beitrag und erstellt eine neue Revision."
+
+#: inc/class-revisionondemand.php:37
+#@ revisionrequest
+msgid "Saves your changes in a new revision."
+msgstr "Speichert Ihre Änderungen in einer neuen Revision."
+
+#: inc/class-revisionrequestcore.php:39
+#@ revisionrequest
+msgid "If checked WordPress will save your changes and then create a new revision of this post."
+msgstr "Speichert Ihre Änderungen und erzeugt dann eine neue Revision dieses Beitrags."
+
+#: inc/class-revisionrequestcore.php:36
+#@ revisionrequest
+msgctxt "Explain Revisions"
+msgid "Sometimes when you revise a post you might like to keep your previous edit. Post revisions are a way to do this."
+msgstr "Manchmal kann es sinnvoll sein, die vorherigen Zustände eines Beitrags zu behalten. Die Revisions-Funktion erlaubt Ihnen dies."
+
+#: inc/class-revisionrequestcore.php:38
+#, php-format
+#@ revisionrequest
+msgctxt "Explain Revisions"
+msgid "To keep your previous edits just check <code>%1$s</code> and save the post. Then make your edits and save again."
+msgstr "Um den aktuellen Stand dieses Beitrags zu sichern, setzen Sie bei <code>%1$s</code> einen Haken, und speichern Sie den Beitrag."
+
+#: inc/class-revisionrequestcore.php:41
+#, php-format
+#@ revisionrequest
+msgctxt "Explain Revisions"
+msgid "To save your changes in a new revision by keeping the previous version just check <code>%1$s</code> and save the post."
+msgstr "Um eine neue Revision zu erstellen, setzen Sie bei <code>%1$s</code> einen Haken und speichern Sie den Beitrag. Die vorherigen Änderungen werden in einer Revision gespeichert."
+
+#: inc/class-revisionrequestcore.php:52
+#@ revisionrequest
+msgctxt "Explain Revisions Metabox"
+msgid "This is a list of all revisions belonging to this post. Use the links in the actions column to delete, restore or view a revision."
+msgstr "Eine Liste aller zu diesem Beitrag vorhandenen Revisionen. In der Spalte „Aktionen“ können Sie eine vorige Version wieder herstellen, eine Revision löschen oder Anschauen."
+
+#: inc/class-revisionrequestcore.php:42
+#@ revisionrequest
+msgctxt "Explain Revision Creation"
+msgid "If checked WordPress will save your changes in a new revision of this post."
+msgstr "Speichert Ihre Änderungen in einer neuen Revision."
+
+#: inc/class-revisionrequestcore.php:48
+#@ revisionrequest
+msgctxt "Explain Revisions"
+msgid "You can store unlimited revisions of this post."
+msgstr "Sie können unbegrenzt revisionen speichern."
+
+#: inc/class-revisionrequestcore.php:50
+#, php-format
+#@ revisionrequest
+msgctxt "Explain Revisions"
+msgid "You can store up to %1$d revisions of this post."
+msgstr "Sie können bis zu %1$d Revisionen eines Beitrags anlegen."
+
